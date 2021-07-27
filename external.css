@@ -1,0 +1,108 @@
+body {
+  font: 16px 'Roboto';
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/y-so-serious-white.png);
+}
+
+
+.header {
+  padding: 20px 0;
+}
+
+.header img {
+  width: 180px;
+  height: 180px;
+  border-radius: 25%;
+}
+
+.photo,
+.author {
+  display: inline-block;
+}
+
+.author {
+  margin-left: 15px;
+  vertical-align: top;
+}
+
+.info {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  color: black;
+  font-size: 13px;
+}
+
+table {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	border-radius: 10px;
+	border-spacing: 0;
+	text-align: center;
+	margin: auto;
+
+}
+
+th {
+	background: #5077be;
+	color: white;
+	text-shadow: 0 1px 1px #2D2020;
+	padding: 10px 20px;
+}
+
+th, td {
+	border-style: solid;
+	border-width: 0 1px 1px 0;
+	border-color: white;
+}
+
+th:first-child, td:first-child {
+	text-align: left;
+}
+
+th:first-child {
+	border-top-left-radius: 10px;
+}
+
+th:last-child {
+	border-top-right-radius: 10px;
+	border-right: none;
+}
+
+td {
+	padding: 10px 20px;
+	background: #f5f5dc;
+	text-align: center
+}
+
+tr:last-child td:first-child {
+	border-radius: 0 0 0 10px;
+}
+
+tr:last-child td:last-child {
+	border-radius: 0 0 10px 0;
+}
+
+tr td:last-child {
+	border-right: none;
+}
+
+button {
+    background-color: Transparent; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+span {
+	display: none;
+	width: 700px;
+  height: 180px;
+  font-size: 16px;
+
+	 }
+
+caption {
+	font-size: 16px;
+}
