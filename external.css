@@ -96,6 +96,7 @@ button {
 }
 
 span {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 	display: none;
 	width: 1300px;
   	height: 400px;
